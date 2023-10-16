@@ -1,0 +1,78 @@
+body {
+  background-color: #141519;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  padding: 2rem;
+  width: 300px;
+  border-radius: 1rem;
+  background-color: #202731;
+  color: white;
+}
+#card-2 {
+  display: none;
+}
+.attribution {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  text-align: center;
+  margin: 2rem 0;
+}
+.attribution a {
+  text-decoration: none;
+  color: grey;
+  background-color: #273039;
+  border-radius: 50%;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.attribution a:hover {
+  background-color: #95a1ac;
+}
+.card .card-text {
+  color: #616771;
+}
+
+.card .star {
+  background-color: #273039;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.card .card-button a {
+  color: white;
+  text-decoration: none;
+  background-color: #fc7613;
+  display: block;
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.card .card-button a:hover {
+  background-color: white;
+  color: #fc7613;
+}
+
+#card-2 {
+  text-align: center;
+}
+
+.card-image {
+  margin-bottom: 1rem;
+}
+
+.point {
+  color: #fc7613;
+  background-color: #273039;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
